@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47CCE0F7F50BA0E34F3FE5E1 /* Pods_pokedex_by_henningsson_co.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2470B8C49D6D6D6771E689 /* Pods_pokedex_by_henningsson_co.framework */; };
+		5960183F1C52DF5800A92AC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960183E1C52DF5800A92AC4 /* Constants.swift */; };
 		59870BD41C5156F30086E773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59870BD31C5156F30086E773 /* AppDelegate.swift */; };
 		59870BD61C5156F30086E773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59870BD51C5156F30086E773 /* ViewController.swift */; };
 		59870BD91C5156F30086E773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59870BD71C5156F30086E773 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5960183E1C52DF5800A92AC4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		59870BD01C5156F30086E773 /* pokedex-by-henningsson-co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-by-henningsson-co.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59870BD31C5156F30086E773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59870BD51C5156F30086E773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				59870BED1C516F3A0086E773 /* csv.swift */,
+				5960183E1C52DF5800A92AC4 /* Constants.swift */,
 			);
 			name = Utill;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				59870BD61C5156F30086E773 /* ViewController.swift in Sources */,
 				59870BD41C5156F30086E773 /* AppDelegate.swift in Sources */,
 				59AB39841C52C78700277B83 /* PokemonDetailVC.swift in Sources */,
+				5960183F1C52DF5800A92AC4 /* Constants.swift in Sources */,
 				59870BE91C515ADA0086E773 /* Pokemon.swift in Sources */,
 				59870BEE1C516F3A0086E773 /* csv.swift in Sources */,
 			);
